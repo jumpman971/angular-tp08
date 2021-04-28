@@ -14,13 +14,15 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
-  it('should create the app', () => {
+  //it('should create the app', () => {
+  it('spec1', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'TP08-tests-unitaires'`, () => {
+  //it(`should have as title 'TP08-tests-unitaires'`, () => {
+  it(`spec2-titre`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('TP08-tests-unitaires');
